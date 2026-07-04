@@ -165,46 +165,18 @@ footer em{font-style:normal;color:var(--accent)}
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:640px){
-  nav{height:56px}
-  .hero{min-height:90vh;padding-top:56px}
+  .hero{min-height:90vh}
   .hero h1{font-size:clamp(30px,8vw,40px)}
-  .hero p{font-size:14px}
-  .hero .mono{font-size:10px}
-  .hero-cta{gap:10px;margin-top:28px;flex-direction:column;align-items:center}
+  .hero-cta{flex-direction:column;align-items:center}
   .hero-cta a{width:100%;max-width:260px;text-align:center}
   .scroll-hint{display:none}
   .section{padding:60px 0}
-  .section-header{margin-bottom:32px}
-  .section-header p{font-size:14px}
   .portfolio .wrap{padding-top:60px;padding-bottom:60px}
-  .portfolio .wrap .section-header{margin-bottom:24px}
-  .roll{gap:1px}
-  .frame-num{top:10px;left:10px;font-size:10px}
-  .frame-label{padding:14px;transform:translateY(0);background:linear-gradient(to top,rgba(13,10,8,.85),transparent)}
-  .frame-label .cat{font-size:14px}
-  .about-grid{gap:24px}
-  .about-image{aspect-ratio:16/10}
-  .about p{font-size:13px}
-  .services{margin-top:32px}
-  .svc{padding:28px 20px}
-  .svc h3{font-size:17px}
-  .svc p{font-size:12px}
-  .process-item{gap:16px;padding:22px 0}
-  .process-num{font-size:12px;min-width:28px}
-  .process-item h3{font-size:16px}
-  .process-item p{font-size:13px}
+  .services{grid-template-columns:1fr}
   .contact .wrap{padding-top:60px;padding-bottom:60px}
-  .contact-grid{gap:28px}
-  .contact h2{font-size:clamp(26px,6vw,34px)}
-  .contact .sub{font-size:14px}
-  .c-detail{font-size:13px;flex-wrap:wrap;gap:4px}
   .wa-cta{width:100%;justify-content:center}
-  .lightbox{padding:16px}
-  .lb-close{top:16px;right:16px;font-size:20px}
-  footer{padding:28px 0;font-size:11px}
 }
 @media(max-width:500px){
-  .services{grid-template-columns:1fr}
   .hero h1{font-size:clamp(26px,7vw,34px)}
 }
 </style>
